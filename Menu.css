@@ -1,0 +1,54 @@
+header {
+    background-color: #F5E3E6; /* Color de fondo pastel */
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+.logo {
+    margin-bottom: -20px;
+    width: 100px;
+    height: auto;
+  }
+
+  nav.navbar ul li {
+    position: relative;
+    float: left;
+    right: 120px; /* Mueve el elemento 100px hacia la izquierda */
+}
+.navbar li{
+  list-style: none;
+}
+nav.navbar ul li a {
+    font-size: 18px;
+    padding: 20px;
+    color: black;
+    display: block;
+    font-weight: 600;
+    text-decoration: none;
+    
+}
+
+nav.navbar ul li a:hover {
+  color:rgb(216, 13, 189);
+  background-color: whitesmoke;
+  
+}
+
+.navbar .submenu {
+  display: none;
+  position: absolute;
+  width: 500px; /* Ancho deseado para las celdas del submenú */
+}
+
+.navbar .submenu li {
+  width: 100%; /* Asegura que cada celda ocupe el ancho completo del submenú */
+  color: rgb(216, 13, 189); /* Color del texto */
+  background-color: #e3f3f5; /* Color de fondo */
+
+}
+
+.navbar li:hover .submenu {
+  display: block;
+}
